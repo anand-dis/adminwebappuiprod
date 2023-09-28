@@ -1,0 +1,15 @@
+<div class="panel-container">
+<mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Authentication Preferences
+          
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-checkbox *ngFor="let checkbox of checkboxes" [(ngModel)]="checkbox.checked">
+        {{ checkbox.label }}
+      </mat-checkbox>
+    </mat-expansion-panel>
+  </mat-accordion>
+  </div>

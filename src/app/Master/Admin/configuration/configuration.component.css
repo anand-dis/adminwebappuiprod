@@ -1,0 +1,90 @@
+.page {
+    color: rgb(97, 94, 94);
+    padding: 0 1rem;
+    background: #f1f5f9;
+    &__box {
+      min-height: 120px;
+      background: #1e293b;
+      margin: 0 -1rem;
+      font-size: 36px;
+    }
+    &__content {
+      min-height: calc(100vh - 178px);
+      border-radius: 10px;
+      margin-top: -2rem;
+      background: white;
+      color: black;
+      font-size: 2rem;
+      &-data {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  
+  .mat-toolbar {
+      display: flex;
+      justify-content:flex-start;
+  height: 24px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+    }
+    
+    .menu-items {
+      margin: 0 5px;
+    }
+    
+    .separator {
+      color:#8c8c8d;
+    }
+    a{
+      color:#8c8c8d;
+    }
+  
+    ::ng-deep .mat-toolbar a {
+      text-decoration: none !important; 
+      color: #8c8c8d !important; 
+      font-size: 10px;
+    }
+    .page__content {
+      min-height: 460px; 
+      min-width: 300px; 
+      position: relative;
+      background: #FFFFFF;
+      border-radius: 5px;
+      overflow: auto;
+    }
+    .page__box {
+      height: 25px;
+    }
+    .separator
+    {
+      font-size: 12px;
+      padding-top: 5px;
+    }
+    .app-name
+    {
+      margin-left: 20%; 
+      color: black; 
+      font-size: 8px;
+  font-weight: bold;
+    }
+    .page__content-data {
+      max-height: calc(90vh - 150px); /* Adjust the value as needed */
+      overflow-y: auto; /* Add vertical scroll if needed */
+     margin:2px 0px 0px 12px
+     
+    }
+    .page__content2 {
+      min-height: 50px;
+      background: #4040FC;
+      width: 77rem;
+      margin-left:-17px;
+      margin-top: -17px;
+      position: sticky;
+      z-index: 1; /* Add a z-index if other elements overlap */
+    }
+    .page__content-data::-webkit-scrollbar {
+      width: 6px; /* Adjust as needed */
+    }

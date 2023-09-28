@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #EFF3F8;
+  }
+  
+  mat-drawer {
+    width: 215px;
+  }
+  mat-drawer-container {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  mat-drawer {
+    background: #F4F6FA;
+  }
+  .mat-drawer .mat-drawer-inner-container {
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: auto !important;
+  }

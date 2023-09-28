@@ -1,0 +1,28 @@
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3">
+        <mat-toolbar >
+            <span class="menu-items"><a >Home</a></span>
+            <span class="separator">/</span>
+            <span class="menu-items"><a routerLink="/Clientlist">Client List</a></span>
+            <span class="separator">/</span>
+            <span class="menu-items"><a routerLink="/config">Configuration Settings</a></span>
+          </mat-toolbar>
+    </div>
+    <div class="page__content shadow p-3 position-relative">
+      <div class="page__content2  p-3">
+        <span class="app-name">Client Name</span>
+        <span class="app-name">Last Updated On</span>
+        <span class="app-name">Last Updated By</span>
+      </div>
+      <div class="page__content-data position-absolute text-center">
+        <app-personalization-panel></app-personalization-panel>
+        <app-authenticationpref-panel></app-authenticationpref-panel>
+        <app-authorizationpref-panel></app-authorizationpref-panel>
+        <app-kycverification-panel></app-kycverification-panel>
+        <app-utilityservices-panel></app-utilityservices-panel>
+        <app-signupsettings-panel></app-signupsettings-panel>
+        <app-othersettings-panel></app-othersettings-panel>
+        <app-workflows-panel></app-workflows-panel>
+      </div>
+    </div>
+  </div>

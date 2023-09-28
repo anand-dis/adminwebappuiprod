@@ -1,0 +1,397 @@
+.page {
+  color: rgb(97, 94, 94);
+  padding: 0 1rem;
+  background: #f1f5f9;
+  &__box {
+    min-height: 120px;
+    background: #1e293b;
+    margin: 0 -1rem;
+    font-size: 36px;
+  }
+  &__content {
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+    &-data {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.mat-toolbar {
+    display: flex;
+    justify-content:flex-start;
+height: 24px;
+padding-left: 0px;
+padding-bottom: 30px;
+  }
+  
+  .menu-items {
+    margin: 0 5px;
+  }
+  
+  .separator {
+    color:#8c8c8d;
+  }
+  a{
+    color:#8c8c8d;
+  }
+
+  ::ng-deep .mat-toolbar a {
+    text-decoration: none !important; 
+    color: #8c8c8d !important; 
+    font-size: 10px;
+  }
+  .page__content {
+    min-height: 460px; 
+      min-width: 253px; 
+      position: relative;
+      background: #FFFFFF;
+      border-radius: 5px;
+      border: 1px #000;
+      overflow: auto;
+  }
+  .page__box {
+    height: 25px;
+  }
+  .separator
+  {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .app-name
+  {
+    margin-left: 20%; 
+    color: #4958e0; 
+    font-size: 16px;
+
+  }
+  .page__content2 {
+margin-left: -16px;
+height: 45px;
+
+margin-top: 33px; 
+    position: sticky;
+    background: #EAEDF4;
+    margin-right: -16px;
+  }
+  .country-name
+  {
+    margin-left: 50rem;
+    
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+   
+  }
+  .client-name
+  {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+/* search-table.component.css */
+
+
+/* search-table.component.css */
+
+/* Style for the table */
+
+
+/* Style the Search button */
+button.mat-button {
+  margin-top: 10px;
+}
+/* search-table.component.css */
+
+/* Style the search input field */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the input element inside the form field */
+.mat-input-element {
+  font-size: 16px;
+  padding: 12px 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Style the input element when focused */
+.mat-input-element:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Style the Search button */
+button.mat-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the Search button on hover */
+button.mat-button:hover {
+  background-color: #0056b3;
+}
+/* CSS for the input field and search icon */
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  top: 56%;
+  right: 1px; /* Adjust the left spacing as needed */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888; /* Optional: Set the icon color */
+  font-size: 17px;
+}
+
+.search-input {
+  padding-left: 32px; /* Ensure space for the icon on the left */
+  width: 100%; /* Take up the full width of the container */
+  border: 1px solid #ccc; /* Add border for input field */
+  border-radius: 4px; /* Round the corners */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Optional: Change icon color on focus */
+.search-input:focus + .search-icon {
+  color: #000; /* Change icon color when input is focused */
+}
+/* Style for the table */
+
+.link-cell {
+  text-decoration: none;
+  cursor: pointer; 
+
+}
+/* Reduce the font size for the table data */
+table {
+  font-size: 14px; /* Adjust the font size as needed */
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Optional: Add margin for spacing */
+}
+
+
+table td:first-child {
+  text-align: left;
+  padding-left: 24px;
+  color: #444445;
+}
+
+/* Align the text in the second column to the right */
+table td:last-child {
+  text-align: right;
+  padding-right: 33px;
+  color: #444445;
+}
+
+table th {
+  background-color: #EAEDF4; /* Background color */
+  color: #fff; /* Text color */
+  padding: 15px; 
+  font-size: 12px;
+}
+
+table th:nth-child(1) {
+  text-align: left; /* Align text to the left */
+}
+
+/* Style the second column header */
+table th:nth-child(2) {
+  text-align: right; /* Align text to the right */
+}
+table td {
+  padding: 8px;
+  text-align: center; /* Align content in cells to the center */
+  vertical-align: top;
+  border-top: 1px solid #ddd; /* Top border */
+  border-bottom: 1px solid #ddd; 
+}
+
+table th.left-header {
+  background-color: #EAEDF4; 
+  color: black; 
+  padding: 15px; 
+  font-size: 12px; 
+  text-align: left; 
+  padding-left: 34px;
+}
+
+/* Style the right header */
+table th.right-header {
+  background-color: #EAEDF4; 
+  color: black; 
+  padding: 15px; 
+  font-size: 12px; 
+  text-align: right; 
+  padding-right: 34px;
+}
+@media (max-width: 767px) {
+  table th, table td {
+    font-size: 10px; 
+  }
+}
+
+.searchbox {
+  width: 316px; 
+}
+@media (100px <= width <= 378px)
+{
+  .searchbox {
+    width: 163px; 
+  }
+  
+  .menu-items
+  {
+    display: none;
+  }
+  .separator{
+    display: none;
+  }
+  .app-name
+  {
+    margin-left: 0px; 
+    color: #4958e0; 
+    font-size: 12px;
+    font-weight: bold;
+
+  }
+  #srchbt
+  {
+    margin-left: 25%;
+    height: 25px;
+    background-color: #2455CF;
+    font-size: 12px;
+  }
+}
+@media (378px <= width <= 476px)
+{
+  .searchbox {
+    width: 163px; 
+  }
+}
+
+@media (379px <= width <= 650px)
+{
+  .app-name
+  {
+    margin-left: 15%; 
+    color: #4958e0; 
+    font-size: 12px;
+    font-weight: bold;
+
+  }
+  .menu-items
+  {
+    display: none;
+  }
+  .separator{
+    display: none;
+  }
+}
+
+
+#srchbt
+{
+  margin-left: 8px;
+  height: 25px;
+  background-color: #2455CF;
+  font-size: 12px;
+}
+#clearbt
+{
+  margin-left: 8px;
+  height: 25px;
+  background-color: #FF965D;
+  font-size: 12px;
+}
+@media (100px <= width <= 450px)
+{
+  
+#srchbt
+{
+  margin-left: 25%;
+  height: 25px;
+  background-color: #2455CF;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#clearbt
+{
+  margin-top: 5px;
+}
+}
+@media (451px <= width <= 476px)
+{
+  
+#srchbt
+{
+  margin-left: 30%;
+  height: 25px;
+  background-color: #2455CF;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#clearbt
+{
+  margin-top: 5px;
+}
+}
+
+@media (450px <= width <= 576px)
+{
+  
+#srchbt
+{
+  margin-left: 30%;
+  height: 25px;
+  background-color: #2455CF;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#clearbt
+{
+  margin-top: 5px;
+}
+}
+
+@media (406px <= width <= 477px)
+{
+  
+#srchbt
+{
+  margin-left: 30%;
+  height: 25px;
+  background-color: #2455CF;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#clearbt
+{
+  margin-top: 5px;
+}
+}

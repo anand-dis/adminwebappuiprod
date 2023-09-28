@@ -1,0 +1,32 @@
+.panel-container {
+    width: 834px; 
+  }
+  .custom-panel {
+    border: 1px solid #ccc; /* Add your desired border style */
+    border-radius: 5px;    /* Add border radius for rounded corners */
+  margin: 3px;       /* Add padding for inner content */
+  display: flex;
+  flex-direction: column;
+
+  }
+  .custom-header {
+    border: 1px solid #ccc; /* Add your desired border style */
+    border-radius: 5px;    /* Add border radius for rounded corners */
+    height: 42px;
+  }
+  .form-row {
+    display: flex;        /* Use flexbox for form rows */
+    align-items: center; /* Align items vertically to the center */
+    margin-bottom: 10px;  /* Add some vertical spacing between rows */
+  }
+
+  .form-group {
+    margin-right: 10px; /* Add some horizontal spacing between form groups */
+  }
+  .mat-checkbox {
+    margin: 0;
+    padding: 0;
+  }
+  label {
+    margin-right: 5px;
+  }
